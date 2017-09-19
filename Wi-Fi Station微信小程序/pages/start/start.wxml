@@ -1,0 +1,15 @@
+<!--start.wxml-->
+
+<view class="section__ctn">
+        <image style="width: 180px; height: 180px; background-color: #eeeeee;" mode="{{mode}}" src="{{src}}"></image>
+      </view>
+
+<input id="input" placeholder="输入比心机编号" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx" 
+  bindinput="change"/>
+
+<text id="text">提示：编号在比心机上标明。</text>
+
+<button class="btn1" bindtap="getDataFromOneNet" disabled="{{disabled}}">
+查看水瓶收集情况</button>

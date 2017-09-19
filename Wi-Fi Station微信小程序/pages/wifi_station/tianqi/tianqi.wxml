@@ -1,0 +1,9 @@
+
+<canvas class = "canvas" id="chart1"
+canvas-id="num"></canvas>
+
+<canvas class = "canvas" id="chart2"
+canvas-id="balance"></canvas>
+
+<button class="btn" bindtap="showmap" >
+显示地址</button>

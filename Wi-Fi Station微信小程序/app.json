@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/wholemap/wholemap",
+    "pages/wifi_station/tianqi/tianqi",
+    "pages/wifi_station/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "水瓶比心机",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color": "#9DACB7",
+    "selectedColor": "#34B457",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/start/start",
+      "text": "首页",
+      "iconPath": "pages/firstpage.png",
+      "selectedIconPath": "pages/firstpage2.png"
+    },
+    {
+      "pagePath": "pages/wholemap/wholemap",
+      "text":"整体分布",
+      "iconPath": "pages/map.png",
+      "selectedIconPath": "pages/map2.png"
+          }
+  ]},
+  "debug": true
+}
